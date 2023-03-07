@@ -2,8 +2,13 @@
 
 library(factoextra)
 
-data <- read.csv("df.csv")
-data
+library(factoextra)
+library(ggploit2)
+
+decathlon2.active <- read.csv("df.csv")
+decathlon2.active <- decathlon2[1:23, 1:10]
+
+head(decathlon2.active[, 1:6])
 
 res.pca <- prcomp(decathlon2.active, scale = TRUE)
 fviz_eig(res.pca)
