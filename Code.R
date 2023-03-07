@@ -1,4 +1,4 @@
-#Install.packages("factoextra")
+#install.packages("factoextra")
 
 library(factoextra)
 
