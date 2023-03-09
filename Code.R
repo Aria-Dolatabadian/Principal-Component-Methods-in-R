@@ -3,7 +3,7 @@
 library(factoextra)
 
 library(factoextra)
-library(ggploit2)
+library(ggplot2)
 
 decathlon2.active <- read.csv("df.csv")
 decathlon2.active <- decathlon2[1:23, 1:10]
